@@ -47,7 +47,7 @@ function renderPosts() {
 
 function addPost() {
   const content = document.getElementById("postContent").value.trim();
-  const image = document.getElementById("postImage").value.trim() || "images/1.png";
+  const image = document.getElementById("postImage").value.trim() || "1.png";
 
   if (content === "") return alert("Post content cannot be empty!");
 
